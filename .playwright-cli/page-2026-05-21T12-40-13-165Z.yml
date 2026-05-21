@@ -1,0 +1,261 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner "Global Navigation Menu" [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - button "Open menu" [ref=e12] [cursor=pointer]:
+            - img [ref=e13]
+          - link "Homepage (g then d)" [ref=e15] [cursor=pointer]:
+            - /url: /
+            - img [ref=e16]
+        - generic [ref=e18]:
+          - navigation "Breadcrumbs" [ref=e19]:
+            - list [ref=e20]:
+              - listitem [ref=e21]:
+                - link "FomoGoMan" [ref=e22] [cursor=pointer]:
+                  - /url: /FomoGoMan
+                  - generic [ref=e23]: FomoGoMan
+              - listitem [ref=e24]:
+                - link "serena-learning-site" [ref=e25] [cursor=pointer]:
+                  - /url: /FomoGoMan/serena-learning-site
+                  - generic [ref=e26]: serena-learning-site
+          - button "Search or jump to…" [ref=e29] [cursor=pointer]:
+            - generic [ref=e30]:
+              - generic:
+                - img
+              - generic [ref=e31]:
+                - generic:
+                  - text: Type
+                  - generic: /
+                  - text: to search
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e36]:
+              - link "Chat with Copilot" [ref=e38] [cursor=pointer]:
+                - /url: /copilot
+                - img [ref=e39]
+              - button "Open Copilot…" [ref=e43] [cursor=pointer]:
+                - generic:
+                  - img
+            - button "Create new..." [ref=e45] [cursor=pointer]:
+              - generic [ref=e46]:
+                - generic:
+                  - img
+              - generic:
+                - img
+            - generic [ref=e47]:
+              - link "All issues" [ref=e48] [cursor=pointer]:
+                - /url: /issues
+                - img [ref=e49]
+              - link "All pull requests" [ref=e52] [cursor=pointer]:
+                - /url: /pulls
+                - img [ref=e53]
+              - link "All repositories" [ref=e55] [cursor=pointer]:
+                - /url: /repos
+                - img [ref=e56]
+          - link "You have no unread notifications (g then n)" [ref=e58] [cursor=pointer]:
+            - /url: /notifications
+            - img [ref=e59]
+          - button "Open user navigation menu" [ref=e62] [cursor=pointer]:
+            - img "User avatar" [ref=e63]
+      - heading "Repository navigation" [level=2] [ref=e64]
+      - navigation "Repository" [ref=e65]:
+        - list [ref=e66]:
+          - listitem [ref=e67]:
+            - link "Code" [ref=e68] [cursor=pointer]:
+              - /url: /FomoGoMan/serena-learning-site
+              - img [ref=e70]
+              - generic [ref=e72]: Code
+          - listitem [ref=e73]:
+            - link "Issues" [ref=e74] [cursor=pointer]:
+              - /url: /FomoGoMan/serena-learning-site/issues
+              - img [ref=e76]
+              - generic [ref=e79]: Issues
+          - listitem [ref=e80]:
+            - link "Pull requests" [ref=e81] [cursor=pointer]:
+              - /url: /FomoGoMan/serena-learning-site/pulls
+              - img [ref=e83]
+              - generic [ref=e85]: Pull requests
+          - listitem [ref=e86]:
+            - link "Agents" [ref=e87] [cursor=pointer]:
+              - /url: /FomoGoMan/serena-learning-site/agents?author=FomoGoMan
+              - img [ref=e89]
+              - generic [ref=e92]: Agents
+          - listitem [ref=e93]:
+            - link "Actions" [ref=e94] [cursor=pointer]:
+              - /url: /FomoGoMan/serena-learning-site/actions
+              - img [ref=e96]
+              - generic [ref=e98]: Actions
+          - listitem [ref=e99]:
+            - link "Projects" [ref=e100] [cursor=pointer]:
+              - /url: /FomoGoMan/serena-learning-site/projects
+              - img [ref=e102]
+              - generic [ref=e104]: Projects
+          - listitem [ref=e105]:
+            - link "Wiki" [ref=e106] [cursor=pointer]:
+              - /url: /FomoGoMan/serena-learning-site/wiki
+              - img [ref=e108]
+              - generic [ref=e110]: Wiki
+          - listitem [ref=e111]:
+            - link "Security and quality" [ref=e112] [cursor=pointer]:
+              - /url: /FomoGoMan/serena-learning-site/security
+              - img [ref=e114]
+              - generic [ref=e116]: Security and quality
+          - listitem [ref=e117]:
+            - link "Insights" [ref=e118] [cursor=pointer]:
+              - /url: /FomoGoMan/serena-learning-site/pulse
+              - img [ref=e120]
+              - generic [ref=e122]: Insights
+          - listitem [ref=e123]:
+            - link "Settings" [ref=e124] [cursor=pointer]:
+              - /url: /FomoGoMan/serena-learning-site/settings
+              - img [ref=e126]
+              - generic [ref=e128]: Settings
+  - main [ref=e132]:
+    - generic [ref=e134]:
+      - generic [ref=e136]:
+        - img "Owner avatar" [ref=e137]
+        - strong [ref=e138]:
+          - link "serena-learning-site" [ref=e139] [cursor=pointer]:
+            - /url: /FomoGoMan/serena-learning-site
+        - generic [ref=e140]: Public
+      - generic [ref=e141]:
+        - list:
+          - listitem [ref=e142]:
+            - button "Pin" [ref=e145] [cursor=pointer]:
+              - img [ref=e146]
+              - text: Pin
+          - listitem [ref=e148]:
+            - button "Watching a repository" [disabled] [ref=e151]:
+              - generic [ref=e152]:
+                - generic:
+                  - img
+                - generic [ref=e153]: Watch
+          - listitem [ref=e154]:
+            - generic [ref=e155]:
+              - button "Fork 0" [disabled] [ref=e156]:
+                - img [ref=e157]
+                - text: Fork
+                - generic "0" [ref=e159]
+              - group [ref=e160]:
+                - generic "See your forks of this repository" [ref=e161] [cursor=pointer]:
+                  - img [ref=e162]
+          - listitem [ref=e164]:
+            - generic [ref=e166]:
+              - button "Star this repository (0)" [ref=e168] [cursor=pointer]:
+                - img [ref=e169]
+                - text: Star
+                - generic "0 users starred this repository" [ref=e171]: "0"
+              - button "Add this repository to a list" [ref=e175] [cursor=pointer]:
+                - img
+    - generic [ref=e180]:
+      - generic [ref=e181]:
+        - generic [ref=e183]:
+          - img [ref=e184]
+          - heading "Start coding with Codespaces" [level=3] [ref=e187]
+          - paragraph [ref=e188]: Add a README file and start coding in a secure, configurable, and dedicated development environment.
+          - link "Create a codespace" [ref=e189] [cursor=pointer]:
+            - /url: /codespaces/new/FomoGoMan/serena-learning-site?auto_init=1&resume=1
+            - generic [ref=e191]: Create a codespace
+        - generic [ref=e193]:
+          - img [ref=e194]
+          - heading "Add collaborators to this repository" [level=3] [ref=e196]
+          - paragraph [ref=e197]: Search for people using their GitHub username or email address.
+          - link "Invite collaborators" [ref=e198] [cursor=pointer]:
+            - /url: /FomoGoMan/serena-learning-site/settings/access
+            - generic [ref=e200]: Invite collaborators
+      - generic [ref=e201]:
+        - generic [ref=e202]:
+          - heading "Quick setup — if you’ve done this kind of thing before" [level=3] [ref=e203]:
+            - strong [ref=e204]: Quick setup
+            - text: — if you’ve done this kind of thing before
+          - generic [ref=e205]:
+            - link "Set up in Desktop" [ref=e207] [cursor=pointer]:
+              - /url: x-github-client://openRepo/https://github.com/FomoGoMan/serena-learning-site
+              - img [ref=e208]
+              - text: Set up in Desktop
+            - strong [ref=e212]: or
+            - generic [ref=e214]:
+              - button "HTTPS" [ref=e216] [cursor=pointer]
+              - button "SSH" [ref=e218] [cursor=pointer]
+            - generic [ref=e221]:
+              - textbox "Clone URL" [ref=e222]: https://github.com/FomoGoMan/serena-learning-site.git
+              - generic "Copy to clipboard" [ref=e224] [cursor=pointer]:
+                - img [ref=e225]
+          - paragraph [ref=e228]:
+            - text: Get started by
+            - link "creating a new file" [ref=e229] [cursor=pointer]:
+              - /url: /FomoGoMan/serena-learning-site/new/main
+            - text: or
+            - link "uploading an existing file" [ref=e230] [cursor=pointer]:
+              - /url: /FomoGoMan/serena-learning-site/upload
+            - text: . We recommend every repository include a
+            - link "README" [ref=e231] [cursor=pointer]:
+              - /url: /FomoGoMan/serena-learning-site/new/main?readme=1
+            - text: ","
+            - link "LICENSE" [ref=e232] [cursor=pointer]:
+              - /url: /FomoGoMan/serena-learning-site/new/main?filename=LICENSE.md
+            - text: ", and"
+            - link ".gitignore" [ref=e233] [cursor=pointer]:
+              - /url: /FomoGoMan/serena-learning-site/new/main?filename=.gitignore
+            - text: .
+        - generic [ref=e234]:
+          - generic [ref=e235]:
+            - heading "…or create a new repository on the command line" [level=3] [ref=e236]
+            - generic [ref=e237]:
+              - generic "Copy to clipboard" [ref=e239] [cursor=pointer]:
+                - img [ref=e240]
+              - generic [ref=e243]:
+                - text: echo "# serena-learning-site" >> README.md git init git add README.md git commit -m "first commit" git branch -M main
+                - generic [ref=e244]: git remote add origin https://github.com/FomoGoMan/serena-learning-site.git
+                - text: git push -u origin main
+          - generic [ref=e245]:
+            - heading "…or push an existing repository from the command line" [level=3] [ref=e246]
+            - generic [ref=e247]:
+              - generic "Copy to clipboard" [ref=e249] [cursor=pointer]:
+                - img [ref=e250]
+              - generic [ref=e253]:
+                - generic [ref=e254]: git remote add origin https://github.com/FomoGoMan/serena-learning-site.git
+                - text: git branch -M main git push -u origin main
+      - generic [ref=e255]:
+        - img [ref=e256]
+        - strong [ref=e258]: ProTip!
+        - text: Use the URL for this page when adding GitHub as a remote.
+  - contentinfo [ref=e259]:
+    - heading "Footer" [level=2] [ref=e260]
+    - generic [ref=e261]:
+      - generic [ref=e262]:
+        - link "GitHub Homepage" [ref=e263] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e264]
+        - generic [ref=e266]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e267]:
+        - heading "Footer navigation" [level=3] [ref=e268]
+        - list "Footer navigation" [ref=e269]:
+          - listitem [ref=e270]:
+            - link "Terms" [ref=e271] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e272]:
+            - link "Privacy" [ref=e273] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e274]:
+            - link "Security" [ref=e275] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e276]:
+            - link "Status" [ref=e277] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e278]:
+            - link "Community" [ref=e279] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e280]:
+            - link "Docs" [ref=e281] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e282]:
+            - link "Contact" [ref=e283] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e284]:
+            - button "Manage cookies" [ref=e286] [cursor=pointer]
+          - listitem [ref=e287]:
+            - button "Do not share my personal information" [ref=e289] [cursor=pointer]
