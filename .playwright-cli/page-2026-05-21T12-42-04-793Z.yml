@@ -1,0 +1,277 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner "Global Navigation Menu" [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - button "Open menu" [ref=e12] [cursor=pointer]:
+            - img [ref=e13]
+          - link "Homepage (g then d)" [ref=e15] [cursor=pointer]:
+            - /url: /
+            - img [ref=e16]
+        - generic [ref=e18]:
+          - navigation "Breadcrumbs" [ref=e19]:
+            - list [ref=e20]:
+              - listitem [ref=e21]:
+                - link "FomoGoMan" [ref=e22] [cursor=pointer]:
+                  - /url: /FomoGoMan
+                  - generic [ref=e23]: FomoGoMan
+              - listitem [ref=e24]:
+                - link "serena-learning-site" [ref=e25] [cursor=pointer]:
+                  - /url: /FomoGoMan/serena-learning-site
+                  - generic [ref=e26]: serena-learning-site
+          - button "Search or jump to…" [ref=e29] [cursor=pointer]:
+            - generic [ref=e30]:
+              - generic:
+                - img
+              - generic [ref=e31]:
+                - generic:
+                  - text: Type
+                  - generic: /
+                  - text: to search
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e36]:
+              - link "Chat with Copilot" [ref=e38] [cursor=pointer]:
+                - /url: /copilot
+                - img [ref=e39]
+              - button "Open Copilot…" [ref=e43] [cursor=pointer]:
+                - generic:
+                  - img
+            - button "Create new..." [ref=e45] [cursor=pointer]:
+              - generic [ref=e46]:
+                - generic:
+                  - img
+              - generic:
+                - img
+            - generic [ref=e47]:
+              - link "All issues" [ref=e48] [cursor=pointer]:
+                - /url: /issues
+                - img [ref=e49]
+              - link "All pull requests" [ref=e52] [cursor=pointer]:
+                - /url: /pulls
+                - img [ref=e53]
+              - link "All repositories" [ref=e55] [cursor=pointer]:
+                - /url: /repos
+                - img [ref=e56]
+          - link "You have no unread notifications (g then n)" [ref=e272] [cursor=pointer]:
+            - /url: /notifications
+            - img [ref=e59]
+          - button "Open user navigation menu" [ref=e62] [cursor=pointer]:
+            - img "User avatar" [ref=e63]
+      - heading "Repository navigation" [level=2] [ref=e64]
+      - navigation "Repository" [ref=e65]:
+        - list [ref=e66]:
+          - listitem [ref=e67]:
+            - link "Code" [ref=e68] [cursor=pointer]:
+              - /url: /FomoGoMan/serena-learning-site
+              - img [ref=e70]
+              - generic [ref=e72]: Code
+          - listitem [ref=e73]:
+            - link "Issues" [ref=e74] [cursor=pointer]:
+              - /url: /FomoGoMan/serena-learning-site/issues
+              - img [ref=e76]
+              - generic [ref=e79]: Issues
+          - listitem [ref=e80]:
+            - link "Pull requests" [ref=e81] [cursor=pointer]:
+              - /url: /FomoGoMan/serena-learning-site/pulls
+              - img [ref=e83]
+              - generic [ref=e85]: Pull requests
+          - listitem [ref=e86]:
+            - link "Agents" [ref=e87] [cursor=pointer]:
+              - /url: /FomoGoMan/serena-learning-site/agents?author=FomoGoMan
+              - img [ref=e89]
+              - generic [ref=e92]: Agents
+          - listitem [ref=e93]:
+            - link "Actions" [ref=e94] [cursor=pointer]:
+              - /url: /FomoGoMan/serena-learning-site/actions
+              - img [ref=e96]
+              - generic [ref=e98]: Actions
+          - listitem [ref=e99]:
+            - link "Projects" [ref=e100] [cursor=pointer]:
+              - /url: /FomoGoMan/serena-learning-site/projects
+              - img [ref=e102]
+              - generic [ref=e104]: Projects
+          - listitem [ref=e105]:
+            - link "Wiki" [ref=e106] [cursor=pointer]:
+              - /url: /FomoGoMan/serena-learning-site/wiki
+              - img [ref=e108]
+              - generic [ref=e110]: Wiki
+          - listitem [ref=e111]:
+            - link "Security and quality" [ref=e112] [cursor=pointer]:
+              - /url: /FomoGoMan/serena-learning-site/security
+              - img [ref=e114]
+              - generic [ref=e116]: Security and quality
+          - listitem [ref=e117]:
+            - link "Insights" [ref=e118] [cursor=pointer]:
+              - /url: /FomoGoMan/serena-learning-site/pulse
+              - img [ref=e120]
+              - generic [ref=e122]: Insights
+          - listitem [ref=e123]:
+            - link "Settings" [ref=e124] [cursor=pointer]:
+              - /url: /FomoGoMan/serena-learning-site/settings
+              - img [ref=e126]
+              - generic [ref=e128]: Settings
+  - main [ref=e132]:
+    - generic [ref=e275]:
+      - generic [ref=e278]:
+        - link "Deploy to GitHub Pages" [ref=e281] [cursor=pointer]:
+          - /url: /FomoGoMan/serena-learning-site/actions/workflows/deploy.yml
+          - img [ref=e282]
+          - generic [ref=e284]: Deploy to GitHub Pages
+        - generic [ref=e285]:
+          - generic [ref=e286]:
+            - img "failed:" [ref=e290]
+            - 'heading "Deploy to GitHub Pages #1" [level=1] [ref=e292]':
+              - generic [ref=e293]: "Deploy to GitHub Pages #1"
+          - generic [ref=e295]:
+            - button "Re-run jobs" [ref=e299] [cursor=pointer]:
+              - generic [ref=e300]:
+                - generic:
+                  - img
+                - generic [ref=e301]: Re-run jobs
+              - generic:
+                - img
+            - button "Workflow run options" [ref=e305] [cursor=pointer]:
+              - img
+      - generic [ref=e306]:
+        - navigation "Workflow run" [ref=e312]:
+          - list [ref=e313]:
+            - listitem [ref=e314]:
+              - link "Summary" [ref=e315] [cursor=pointer]:
+                - /url: /FomoGoMan/serena-learning-site/actions/runs/26226512729
+                - generic:
+                  - img
+                - generic [ref=e317]: Summary
+            - generic [ref=e318]:
+              - heading "All jobs" [level=4] [ref=e319]
+              - button "Filter by job status" [ref=e320] [cursor=pointer]:
+                - img [ref=e321]
+            - listitem [ref=e323]
+            - listitem [ref=e324]:
+              - list [ref=e325]:
+                - listitem [ref=e326]:
+                  - link "build" [ref=e327] [cursor=pointer]:
+                    - /url: /FomoGoMan/serena-learning-site/actions/runs/26226512729/job/77174911031
+                    - generic:
+                      - img
+                    - generic [ref=e329]: build
+                - listitem [ref=e330]:
+                  - link "deploy" [ref=e331] [cursor=pointer]:
+                    - /url: /FomoGoMan/serena-learning-site/actions/runs/26226512729/job/77174940039
+                    - generic:
+                      - img
+                    - generic [ref=e333]: deploy
+            - listitem [ref=e334]
+            - listitem [ref=e335]:
+              - heading "Run details" [level=3] [ref=e337]
+              - list "Run details" [ref=e338]:
+                - listitem [ref=e339]:
+                  - link "Usage" [ref=e340] [cursor=pointer]:
+                    - /url: /FomoGoMan/serena-learning-site/actions/runs/26226512729/usage
+                    - generic:
+                      - img
+                    - generic [ref=e342]: Usage
+                - listitem [ref=e343]:
+                  - link "Workflow file" [ref=e344] [cursor=pointer]:
+                    - /url: /FomoGoMan/serena-learning-site/actions/runs/26226512729/workflow
+                    - generic:
+                      - img
+                    - generic [ref=e346]: Workflow file
+        - generic [ref=e348]:
+          - region "Workflow run summary" [ref=e349]:
+            - generic [ref=e350]:
+              - generic [ref=e351]:
+                - generic [ref=e352]: Triggered via push May 21, 2026 20:401 minute ago
+                - generic [ref=e353]:
+                  - link "@FomoGoMan FomoGoMan" [ref=e354] [cursor=pointer]:
+                    - /url: /FomoGoMan
+                    - img "@FomoGoMan" [ref=e355]
+                    - text: FomoGoMan
+                  - generic [ref=e356]:
+                    - text: ⁠
+                    - link "e6fe264" [ref=e357] [cursor=pointer]:
+                      - /url: /FomoGoMan/serena-learning-site/commit/e6fe2640780dbd06773e958cc687f409e5b5f793
+                      - img [ref=e358]
+                      - text: e6fe264
+                  - link "main" [ref=e360] [cursor=pointer]:
+                    - /url: /FomoGoMan/serena-learning-site/tree/refs/heads/main
+              - generic [ref=e361]:
+                - generic [ref=e362]: Status
+                - text: Failure
+              - generic [ref=e363]:
+                - generic [ref=e364]: Total duration
+                - link "13s" [ref=e365] [cursor=pointer]:
+                  - /url: /FomoGoMan/serena-learning-site/actions/runs/26226512729/usage
+              - generic [ref=e366]:
+                - generic [ref=e367]: Artifacts
+                - text: –
+          - region "Workflow run graph" [ref=e368]:
+            - generic [ref=e370]:
+              - generic [ref=e372]:
+                - heading "deploy.yml" [level=2] [ref=e373]:
+                  - link "deploy.yml" [ref=e374] [cursor=pointer]:
+                    - /url: /FomoGoMan/serena-learning-site/actions/runs/26226512729/workflow
+                - generic [ref=e375]: "on: push"
+              - generic [ref=e377]:
+                - generic [ref=e378]:
+                  - img
+                  - img
+                  - 'link "failed: build 8s" [ref=e382] [cursor=pointer]':
+                    - /url: /FomoGoMan/serena-learning-site/actions/runs/26226512729/job/77174911031
+                    - generic [ref=e384]:
+                      - img "failed:" [ref=e386]
+                      - generic [ref=e389]: build
+                      - generic [ref=e390]: 8s
+                  - 'link "skipped: deploy" [ref=e395] [cursor=pointer]':
+                    - /url: /FomoGoMan/serena-learning-site/actions/runs/26226512729/job/77174940039
+                    - generic [ref=e397]:
+                      - img "skipped:" [ref=e399]
+                      - generic [ref=e402]: deploy
+                - generic [ref=e404]:
+                  - paragraph [ref=e405]: Oh hello! Nice to see you.
+                  - paragraph [ref=e406]:
+                    - text: Made with ❤️ by
+                    - link [ref=e407] [cursor=pointer]:
+                      - /url: https://actions.github.io/humans.txt
+                      - text: humans.txt
+              - generic [ref=e408]:
+                - button "Fit to window" [disabled] [ref=e409]:
+                  - img
+                - generic [ref=e410]:
+                  - button "Zoom out" [disabled] [ref=e412]:
+                    - img
+                  - button "Zoom in" [disabled] [ref=e414]:
+                    - img
+          - img [ref=e415]
+          - region "Annotations" [ref=e416]:
+            - generic [ref=e417]:
+              - generic [ref=e419]:
+                - heading "Annotations" [level=2] [ref=e420]
+                - generic [ref=e421]: 1 error and 1 warning
+              - table [ref=e422]:
+                - rowgroup [ref=e423]:
+                  - row "build Process completed with exit code 1." [ref=e424]:
+                    - cell "build Process completed with exit code 1." [ref=e425]:
+                      - generic [ref=e426]:
+                        - img [ref=e428]
+                        - generic [ref=e430]:
+                          - link "build" [ref=e431] [cursor=pointer]:
+                            - /url: /FomoGoMan/serena-learning-site/actions/runs/26226512729/job/77174911031#step:4:30
+                            - strong [ref=e432]: build
+                          - generic [ref=e435]: Process completed with exit code 1.
+                  - 'row "build Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@v4, actions/setup-node@v4. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/ Show more" [ref=e436]':
+                    - 'cell "build Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@v4, actions/setup-node@v4. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/ Show more" [ref=e437]':
+                      - generic [ref=e438]:
+                        - img [ref=e440]
+                        - generic [ref=e442]:
+                          - link "build" [ref=e443] [cursor=pointer]:
+                            - /url: /FomoGoMan/serena-learning-site/actions/runs/26226512729/job/77174911031#step:13:2
+                            - strong [ref=e444]: build
+                          - generic [ref=e445]:
+                            - generic [ref=e447]:
+                              - text: "Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@v4, actions/setup-node@v4. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see:"
+                              - link "https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/" [ref=e448] [cursor=pointer]:
+                                - /url: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+                            - button "Show more" [ref=e449] [cursor=pointer]

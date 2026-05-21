@@ -1,0 +1,343 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner "Global Navigation Menu" [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - button "Open menu" [ref=e12] [cursor=pointer]:
+            - img [ref=e13]
+          - link "Homepage (g then d)" [ref=e15] [cursor=pointer]:
+            - /url: /
+            - img [ref=e16]
+        - generic [ref=e18]:
+          - navigation "Breadcrumbs" [ref=e19]:
+            - list [ref=e20]:
+              - listitem [ref=e21]:
+                - link "FomoGoMan" [ref=e22] [cursor=pointer]:
+                  - /url: /FomoGoMan
+                  - generic [ref=e23]: FomoGoMan
+              - listitem [ref=e24]:
+                - link "serena-learning-site" [ref=e25] [cursor=pointer]:
+                  - /url: /FomoGoMan/serena-learning-site
+                  - generic [ref=e26]: serena-learning-site
+          - button "Search or jump to…" [ref=e29] [cursor=pointer]:
+            - generic [ref=e30]:
+              - generic:
+                - img
+              - generic [ref=e31]:
+                - generic:
+                  - text: Type
+                  - generic: /
+                  - text: to search
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e36]:
+              - link "Chat with Copilot" [ref=e38] [cursor=pointer]:
+                - /url: /copilot
+                - img [ref=e39]
+              - button "Open Copilot…" [ref=e43] [cursor=pointer]:
+                - generic:
+                  - img
+            - button "Create new..." [ref=e45] [cursor=pointer]:
+              - generic [ref=e46]:
+                - generic:
+                  - img
+              - generic:
+                - img
+            - generic [ref=e47]:
+              - link "All issues" [ref=e48] [cursor=pointer]:
+                - /url: /issues
+                - img [ref=e49]
+              - link "All pull requests" [ref=e52] [cursor=pointer]:
+                - /url: /pulls
+                - img [ref=e53]
+              - link "All repositories" [ref=e55] [cursor=pointer]:
+                - /url: /repos
+                - img [ref=e56]
+          - link "You have no unread notifications (g then n)" [ref=e58] [cursor=pointer]:
+            - /url: /notifications
+            - img [ref=e59]
+          - button "Open user navigation menu" [ref=e62] [cursor=pointer]:
+            - img "User avatar" [ref=e63]
+      - heading "Repository navigation" [level=2] [ref=e64]
+      - navigation "Repository" [ref=e65]:
+        - list [ref=e66]:
+          - listitem [ref=e67]:
+            - link "Code" [ref=e68] [cursor=pointer]:
+              - /url: /FomoGoMan/serena-learning-site
+              - img [ref=e70]
+              - generic [ref=e72]: Code
+          - listitem [ref=e73]:
+            - link "Issues" [ref=e74] [cursor=pointer]:
+              - /url: /FomoGoMan/serena-learning-site/issues
+              - img [ref=e76]
+              - generic [ref=e79]: Issues
+          - listitem [ref=e80]:
+            - link "Pull requests" [ref=e81] [cursor=pointer]:
+              - /url: /FomoGoMan/serena-learning-site/pulls
+              - img [ref=e83]
+              - generic [ref=e85]: Pull requests
+          - listitem [ref=e86]:
+            - link "Agents" [ref=e87] [cursor=pointer]:
+              - /url: /FomoGoMan/serena-learning-site/agents?author=FomoGoMan
+              - img [ref=e89]
+              - generic [ref=e92]: Agents
+          - listitem [ref=e93]:
+            - link "Actions" [ref=e94] [cursor=pointer]:
+              - /url: /FomoGoMan/serena-learning-site/actions
+              - img [ref=e96]
+              - generic [ref=e98]: Actions
+          - listitem [ref=e99]:
+            - link "Projects" [ref=e100] [cursor=pointer]:
+              - /url: /FomoGoMan/serena-learning-site/projects
+              - img [ref=e102]
+              - generic [ref=e104]: Projects
+          - listitem [ref=e105]:
+            - link "Wiki" [ref=e106] [cursor=pointer]:
+              - /url: /FomoGoMan/serena-learning-site/wiki
+              - img [ref=e108]
+              - generic [ref=e110]: Wiki
+          - listitem [ref=e111]:
+            - link "Security and quality" [ref=e112] [cursor=pointer]:
+              - /url: /FomoGoMan/serena-learning-site/security
+              - img [ref=e114]
+              - generic [ref=e116]: Security and quality
+          - listitem [ref=e117]:
+            - link "Insights" [ref=e118] [cursor=pointer]:
+              - /url: /FomoGoMan/serena-learning-site/pulse
+              - img [ref=e120]
+              - generic [ref=e122]: Insights
+          - listitem [ref=e123]:
+            - link "Settings" [ref=e124] [cursor=pointer]:
+              - /url: /FomoGoMan/serena-learning-site/settings
+              - img [ref=e126]
+              - generic [ref=e128]: Settings
+  - main [ref=e131]:
+    - generic [ref=e133]:
+      - 'heading "Settings: FomoGoMan/serena-learning-site" [level=1] [ref=e134]'
+      - generic [ref=e136]:
+        - navigation "General settings" [ref=e139]:
+          - list [ref=e141]:
+            - listitem [ref=e142]:
+              - link "General" [ref=e143] [cursor=pointer]:
+                - /url: /FomoGoMan/serena-learning-site/settings
+                - generic:
+                  - img
+                - generic [ref=e144]: General
+            - listitem [ref=e145]
+            - listitem [ref=e146]:
+              - generic [ref=e149]:
+                - heading "Access" [level=2] [ref=e151]
+                - list "Access" [ref=e152]:
+                  - listitem [ref=e153]:
+                    - link "Collaborators" [ref=e154] [cursor=pointer]:
+                      - /url: /FomoGoMan/serena-learning-site/settings/access
+                      - generic:
+                        - img
+                      - generic [ref=e155]: Collaborators
+                  - listitem [ref=e156]:
+                    - button "Moderation options" [ref=e157] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic [ref=e158]: Moderation options
+                      - generic:
+                        - img
+            - listitem [ref=e159]
+            - listitem [ref=e160]:
+              - generic [ref=e163]:
+                - heading "Code and automation" [level=2] [ref=e165]
+                - list "Code and automation" [ref=e166]:
+                  - listitem [ref=e167]:
+                    - link "Branches" [ref=e168] [cursor=pointer]:
+                      - /url: /FomoGoMan/serena-learning-site/settings/branches
+                      - generic:
+                        - img
+                      - generic [ref=e169]: Branches
+                  - listitem [ref=e170]:
+                    - link "Tags" [ref=e171] [cursor=pointer]:
+                      - /url: /FomoGoMan/serena-learning-site/settings/tag_protection
+                      - generic:
+                        - img
+                      - generic [ref=e172]: Tags
+                  - listitem [ref=e173]:
+                    - button "Rules" [ref=e174] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic [ref=e175]: Rules
+                      - generic:
+                        - img
+                  - listitem [ref=e176]:
+                    - button "Actions" [ref=e177] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic [ref=e178]: Actions
+                      - generic:
+                        - img
+                  - listitem [ref=e179]:
+                    - link "Models Preview feature" [ref=e180] [cursor=pointer]:
+                      - /url: /FomoGoMan/serena-learning-site/settings/models/access-policy
+                      - generic:
+                        - img
+                      - generic [ref=e181]: Models
+                      - generic:
+                        - generic "Preview feature": Preview
+                  - listitem [ref=e182]:
+                    - link "Webhooks" [ref=e183] [cursor=pointer]:
+                      - /url: /FomoGoMan/serena-learning-site/settings/hooks
+                      - generic:
+                        - img
+                      - generic [ref=e184]: Webhooks
+                  - listitem [ref=e185]:
+                    - button "Copilot" [ref=e186] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic [ref=e187]: Copilot
+                      - generic:
+                        - img
+                  - listitem [ref=e188]:
+                    - link "Environments" [ref=e189] [cursor=pointer]:
+                      - /url: /FomoGoMan/serena-learning-site/settings/environments
+                      - generic:
+                        - img
+                      - generic [ref=e190]: Environments
+                  - listitem [ref=e191]:
+                    - link "Codespaces" [ref=e192] [cursor=pointer]:
+                      - /url: /FomoGoMan/serena-learning-site/settings/codespaces
+                      - generic:
+                        - img
+                      - generic [ref=e193]: Codespaces
+                  - listitem [ref=e194]:
+                    - link "Pages" [ref=e195] [cursor=pointer]:
+                      - /url: /FomoGoMan/serena-learning-site/settings/pages
+                      - generic:
+                        - img
+                      - generic [ref=e196]: Pages
+            - listitem [ref=e197]
+            - listitem [ref=e198]:
+              - generic [ref=e201]:
+                - heading "Security and quality" [level=2] [ref=e203]
+                - list "Security and quality" [ref=e204]:
+                  - listitem [ref=e205]:
+                    - link "Advanced Security" [ref=e206] [cursor=pointer]:
+                      - /url: /FomoGoMan/serena-learning-site/settings/security_analysis
+                      - generic:
+                        - img
+                      - generic [ref=e207]: Advanced Security
+                  - listitem [ref=e208]:
+                    - link "Deploy keys" [ref=e209] [cursor=pointer]:
+                      - /url: /FomoGoMan/serena-learning-site/settings/keys
+                      - generic:
+                        - img
+                      - generic [ref=e210]: Deploy keys
+                  - listitem [ref=e211]:
+                    - button "Secrets and variables" [ref=e212] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic [ref=e213]: Secrets and variables
+                      - generic:
+                        - img
+            - listitem [ref=e214]
+            - listitem [ref=e215]:
+              - generic [ref=e218]:
+                - heading "Integrations" [level=2] [ref=e220]
+                - list "Integrations" [ref=e221]:
+                  - listitem [ref=e222]:
+                    - link "GitHub Apps" [ref=e223] [cursor=pointer]:
+                      - /url: /FomoGoMan/serena-learning-site/settings/installations
+                      - generic:
+                        - img
+                      - generic [ref=e224]: GitHub Apps
+                  - listitem [ref=e225]:
+                    - link "Email notifications" [ref=e226] [cursor=pointer]:
+                      - /url: /FomoGoMan/serena-learning-site/settings/notifications
+                      - generic:
+                        - img
+                      - generic [ref=e227]: Email notifications
+        - generic [ref=e230]:
+          - heading "GitHub Pages" [level=2] [ref=e232]
+          - paragraph [ref=e233]:
+            - link "GitHub Pages" [ref=e234] [cursor=pointer]:
+              - /url: https://pages.github.com
+            - text: is designed to host your personal, organization, or project pages from a GitHub repository.
+          - heading "Build and deployment" [level=2] [ref=e235]
+          - generic [ref=e236]:
+            - generic [ref=e237]:
+              - text: Source
+              - generic [ref=e240]:
+                - button "Source Deploy from a branch" [ref=e241] [cursor=pointer]:
+                  - generic [ref=e243]: Deploy from a branch
+                  - generic:
+                    - img
+                - menu "Deploy from a branch" [ref=e305]:
+                  - menuitemradio "GitHub Actions Best for using frameworks and customizing your build process" [active] [ref=e306] [cursor=pointer]:
+                    - generic [ref=e307]:
+                      - generic [ref=e308]: GitHub Actions
+                      - generic [ref=e309]: Best for using frameworks and customizing your build process
+                  - menuitemradio "Deploy from a branch Classic Pages experience" [checked] [disabled] [ref=e310] [cursor=pointer]:
+                    - generic:
+                      - img
+                    - generic [ref=e311]:
+                      - generic [ref=e312]: Deploy from a branch
+                      - generic [ref=e313]: Classic Pages experience
+            - generic [ref=e246]:
+              - strong [ref=e247]: Branch
+              - paragraph [ref=e248]:
+                - text: GitHub Pages is currently disabled. Select a source below to enable GitHub Pages for this repository.
+                - link "Learn more about configuring the publishing source for your site" [ref=e249] [cursor=pointer]:
+                  - /url: https://docs.github.com/articles/configuring-a-publishing-source-for-github-pages/
+                - text: .
+              - generic [ref=e250]:
+                - button "None" [ref=e254] [cursor=pointer]:
+                  - generic [ref=e256]: None
+                  - generic:
+                    - img
+                - button "Save" [ref=e257] [cursor=pointer]
+              - paragraph
+          - generic [ref=e258]:
+            - generic [ref=e259]:
+              - heading "Visibility" [level=3] [ref=e260]
+              - generic [ref=e261]: GitHub Enterprise
+            - paragraph [ref=e262]:
+              - text: With a GitHub Enterprise account, you can restrict access to your GitHub Pages site by publishing it privately. You can use privately published sites to share your internal documentation or knowledge base with members of your enterprise. You can try GitHub Enterprise risk-free for 30 days.
+              - link "Learn more about the visibility of your GitHub Pages site." [ref=e263] [cursor=pointer]:
+                - /url: https://docs.github.com/pages/getting-started-with-github-pages/changing-the-visibility-of-your-github-pages-site
+            - link "Start free for 30 days" [ref=e264] [cursor=pointer]:
+              - /url: /account/enterprises/new
+              - generic [ref=e266]: Start free for 30 days
+  - contentinfo [ref=e267]:
+    - heading "Footer" [level=2] [ref=e268]
+    - generic [ref=e269]:
+      - generic [ref=e270]:
+        - link "GitHub Homepage" [ref=e271] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e272]
+        - generic [ref=e274]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e275]:
+        - heading "Footer navigation" [level=3] [ref=e276]
+        - list "Footer navigation" [ref=e277]:
+          - listitem [ref=e278]:
+            - link "Terms" [ref=e279] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e280]:
+            - link "Privacy" [ref=e281] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e282]:
+            - link "Security" [ref=e283] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e284]:
+            - link "Status" [ref=e285] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e286]:
+            - link "Community" [ref=e287] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e288]:
+            - link "Docs" [ref=e289] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e290]:
+            - link "Contact" [ref=e291] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e292]:
+            - button "Manage cookies" [ref=e294] [cursor=pointer]
+          - listitem [ref=e295]:
+            - button "Do not share my personal information" [ref=e297] [cursor=pointer]
