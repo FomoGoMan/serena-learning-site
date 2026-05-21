@@ -1,0 +1,190 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e8]: S
+        - generic [ref=e9]: Serena 学习站
+      - generic [ref=e10]:
+        - button "首页" [ref=e11]
+        - button "符号系统" [ref=e12]
+        - button "架构设计" [ref=e13]
+        - button "MCP协议" [ref=e14]
+        - button "动手实验" [ref=e15]
+  - main [ref=e16]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - img [ref=e22]
+        - generic [ref=e25]: AI Agent 时代的 IDE 工具
+      - heading "理解 Serena 掌握 AI 编程未来" [level=1] [ref=e26]:
+        - text: 理解 Serena
+        - text: 掌握 AI 编程未来
+      - paragraph [ref=e27]: Serena 是一个面向 AI Agent 的代码智能工具，它让 AI 能够像人类开发者一样， 理解代码结构、进行符号级操作、实现精准重构。
+      - generic [ref=e28]:
+        - generic [ref=e29]:
+          - img [ref=e30]
+          - generic [ref=e32]: 符号级抽象
+        - generic [ref=e33]:
+          - img [ref=e34]
+          - generic [ref=e37]: MCP 协议
+        - generic [ref=e38]:
+          - img [ref=e39]
+          - generic [ref=e41]: 多语言支持
+      - generic [ref=e42]:
+        - generic [ref=e43]: "# Serena 核心优势"
+        - generic [ref=e44]:
+          - generic [ref=e45]:
+            - text: "# 传统方式：8-12步繁琐操作"
+            - generic [ref=e46]: search → read → search → edit → search → edit...
+          - generic [ref=e47]:
+            - text: "# Serena：1步原子操作"
+            - generic [ref=e48]: rename_symbol("MyClass/my_method", "new_name")
+      - generic [ref=e49]:
+        - img [ref=e51]
+        - paragraph [ref=e53]: 向下滚动开始学习
+    - generic [ref=e56]:
+      - generic [ref=e57]:
+        - generic [ref=e58]:
+          - img [ref=e59]
+          - generic [ref=e63]: 核心概念
+        - heading "符号系统 (Symbol System)" [level=2] [ref=e64]
+        - paragraph [ref=e65]: Serena 使用「符号」而不是「行号」来理解和操作代码。 符号是代码结构的高层抽象，让 AI 能够精确地操作代码。
+      - generic [ref=e66]:
+        - button "概念" [ref=e67]
+        - button "示例" [ref=e68]
+        - button "对比" [ref=e69]
+      - generic [ref=e70]:
+        - generic [ref=e71]:
+          - img [ref=e73]
+          - heading "NamePath 符号路径" [level=3] [ref=e77]
+          - paragraph [ref=e78]: MyClass/my_method 表示「MyClass 类中的 my_method 方法」
+        - generic [ref=e79]:
+          - img [ref=e81]
+          - heading "符号识别" [level=3] [ref=e85]
+          - paragraph [ref=e86]: 自动识别类、方法、变量等代码结构
+        - generic [ref=e87]:
+          - img [ref=e89]
+          - heading "位置无关" [level=3] [ref=e92]
+          - paragraph [ref=e93]: 基于符号而非行号，移动代码不会导致引用失效
+      - generic [ref=e95]:
+        - img [ref=e96]
+        - generic [ref=e98]: 继续了解工具架构设计
+    - generic [ref=e101]:
+      - generic [ref=e102]:
+        - generic [ref=e103]:
+          - img [ref=e104]
+          - generic [ref=e106]: 架构设计
+        - heading "Tool 工具架构" [level=2] [ref=e107]
+        - paragraph [ref=e108]: Serena 使用面向对象的设计模式，通过基类、标记类和注册表来组织工具。 这种设计让工具声明式、可扩展、可组合。
+      - generic [ref=e109]:
+        - button "Tool 基类" [ref=e110]
+        - button "标记类" [ref=e111]
+        - button "注册表" [ref=e112]
+      - generic [ref=e113]:
+        - generic [ref=e114]:
+          - generic [ref=e115]: // Tool 基类 - 所有工具的父类
+          - generic [ref=e116]: "class Tool(Component): \"\"\"工具基类，所有工具都继承自此类\"\"\" def apply(self, **kwargs) -> str: \"\"\"具体工具实现，由子类实现\"\"\" raise NotImplementedError def apply_ex(self, **kwargs) -> str: \"\"\"执行工具，包含日志、异常处理、超时\"\"\" # 1. 检查工具是否激活 # 2. 检查项目是否初始化 # 3. 调用 apply 方法 # 4. 记录工具使用 # 5. 保存 LSP 缓存 pass @classmethod def can_edit(cls) -> bool: \"\"\"是否可编辑\"\"\" return issubclass(cls, ToolMarkerCanEdit)"
+        - generic [ref=e117]:
+          - generic [ref=e118]:
+            - heading "工具执行流程" [level=4] [ref=e119]
+            - generic [ref=e120]:
+              - generic [ref=e122]: 工具调用 → apply_ex
+              - generic [ref=e124]: 激活检查 → 项目检查
+              - generic [ref=e126]: 执行 → apply()
+              - generic [ref=e128]: 结果 → 缓存 → 返回
+          - generic [ref=e129]:
+            - heading "核心特性" [level=4] [ref=e130]
+            - generic [ref=e131]:
+              - generic [ref=e132]:
+                - generic [ref=e133]: ✓
+                - generic [ref=e134]: 统一异常处理
+              - generic [ref=e135]:
+                - generic [ref=e136]: ✓
+                - generic [ref=e137]: 超时控制
+              - generic [ref=e138]:
+                - generic [ref=e139]: ✓
+                - generic [ref=e140]: 会话感知
+              - generic [ref=e141]:
+                - generic [ref=e142]: ✓
+                - generic [ref=e143]: 自动缓存
+    - generic [ref=e146]:
+      - generic [ref=e147]:
+        - generic [ref=e148]:
+          - img [ref=e149]
+          - generic [ref=e152]: MCP 协议
+        - heading "MCP 协议集成" [level=2] [ref=e153]
+        - paragraph [ref=e154]: Serena 通过 Model Context Protocol 与 AI 客户端连接， 实现工具的标准化调用和返回格式。
+      - generic [ref=e156]:
+        - generic [ref=e157]:
+          - img [ref=e159]
+          - generic [ref=e162]:
+            - heading "AI Agent" [level=3] [ref=e163]
+            - paragraph [ref=e164]: 用户通过 AI 客户端（如 Claude Code）发出请求
+        - generic [ref=e165]:
+          - img [ref=e167]
+          - generic [ref=e170]:
+            - heading "MCP 协议" [level=3] [ref=e171]
+            - paragraph [ref=e172]: 请求通过 Model Context Protocol 转发
+        - generic [ref=e173]:
+          - img [ref=e175]
+          - generic [ref=e178]:
+            - heading "Serena MCP Server" [level=3] [ref=e179]
+            - paragraph [ref=e180]: Serena 接收请求并路由到对应工具
+        - generic [ref=e181]:
+          - img [ref=e183]
+          - generic [ref=e186]:
+            - heading "LSP / JetBrains" [level=3] [ref=e187]
+            - paragraph [ref=e188]: 调用语言服务器获取代码语义信息
+      - generic [ref=e189]:
+        - generic [ref=e190]:
+          - generic [ref=e191]: // MCP 工具调用示例
+          - generic [ref=e192]: "{ \"name\": \"find_symbol\", \"description\": \"在项目中查找符号\", \"parameters\": { \"name_path_pattern\": { \"type\": \"string\", \"description\": \"符号名称路径\" } } }"
+        - generic [ref=e193]:
+          - generic [ref=e194]: // 工具返回结果
+          - generic [ref=e195]: "{ \"symbols\": [{ \"name\": \"get_user\", \"name_path\": \"UserService/get_user\", \"kind\": \"method\", \"relative_path\": \"services/user.py\", \"line\": 42, \"column\": 5 }] }"
+      - generic [ref=e197]:
+        - generic [ref=e198]: 40+
+        - generic [ref=e199]:
+          - generic [ref=e200]: 支持的语言
+          - generic [ref=e201]: Python, TypeScript, Go, Rust, Java...
+    - generic [ref=e204]:
+      - generic [ref=e205]:
+        - generic [ref=e206]:
+          - img [ref=e207]
+          - generic [ref=e209]: 动手实验
+        - heading "交互式演示" [level=2] [ref=e210]
+        - paragraph [ref=e211]: 点击按钮体验 Serena 的工具调用流程。 这是一个模拟演示，真实环境需要连接 Serena MCP Server。
+      - generic [ref=e212]:
+        - generic [ref=e214]:
+          - generic [ref=e215]:
+            - generic [ref=e216]:
+              - img [ref=e217]
+              - generic [ref=e220]: 代码示例
+            - button [ref=e221]:
+              - img [ref=e222]
+          - generic [ref=e227]: "class UserService: def __init__(self): self.users = [] def get_user(self, user_id): for user in self.users: if user.id == user_id: return user return None class OrderService: def __init__(self): self.orders = [] def get_user(self, order_id): for order in self.orders: if order.id == order_id: return order return None"
+        - generic [ref=e228]:
+          - generic [ref=e229]:
+            - heading "选择工具" [level=4] [ref=e230]
+            - generic [ref=e231]:
+              - button "find_symbol() 查找符号" [ref=e232]:
+                - generic [ref=e233]: find_symbol()
+                - generic [ref=e234]: 查找符号
+              - button "find_references() 查找引用" [ref=e235]:
+                - generic [ref=e236]: find_references()
+                - generic [ref=e237]: 查找引用
+              - button "rename_symbol() 重命名符号" [ref=e238]:
+                - generic [ref=e239]: rename_symbol()
+                - generic [ref=e240]: 重命名符号
+          - button "执行 find_symbol()" [ref=e241]:
+            - img [ref=e242]
+            - generic [ref=e244]: 执行 find_symbol()
+      - generic [ref=e246]:
+        - heading "下一步" [level=4] [ref=e247]
+        - paragraph [ref=e248]: 安装 Serena 并连接到你的 AI 客户端，开始体验完整的符号级工具能力
+        - generic [ref=e249]:
+          - generic [ref=e250]: "# 安装 Serena"
+          - code [ref=e251]: uv tool install serena-agent
+          - generic [ref=e252]: "# 初始化项目"
+          - code [ref=e253]: serena init
+  - contentinfo [ref=e254]:
+    - paragraph [ref=e255]: Serena Learning Site - Built to help developers understand AI Agent tooling

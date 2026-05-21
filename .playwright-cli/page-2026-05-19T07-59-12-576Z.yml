@@ -1,0 +1,518 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "S Serena" [ref=e8] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e10]: S
+          - generic [ref=e11]: Serena
+        - generic [ref=e12]:
+          - button "功能" [ref=e13]
+          - button "符号系统" [ref=e14]
+          - button "架构" [ref=e15]
+          - button "MCP协议" [ref=e16]
+          - button "效果评估" [ref=e17]
+          - button "定价" [ref=e18]
+          - button "快速开始" [ref=e19]
+      - generic [ref=e20]:
+        - link "GitHub" [ref=e21] [cursor=pointer]:
+          - /url: https://github.com/oraios/serena
+          - img [ref=e22]
+          - generic [ref=e24]: GitHub
+        - link "文档" [ref=e25] [cursor=pointer]:
+          - /url: https://oraios.github.io/serena
+          - generic [ref=e26]: 文档
+          - img [ref=e27]
+  - main [ref=e31]:
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - generic [ref=e42]: v1.5 已发布 - AI Agent 的 IDE
+          - heading "给你的 AI Agent 安装 IDE 级别的智能" [level=1] [ref=e43]:
+            - text: 给你的 AI Agent
+            - text: 安装 IDE 级别的智能
+          - paragraph [ref=e44]: Serena 提供符号级的代码理解和编辑能力，让 AI 能够像资深开发者一样， 进行精准的重构、查找和修改。
+          - generic [ref=e45]:
+            - button "快速开始" [ref=e46]:
+              - generic [ref=e47]: 快速开始
+              - img [ref=e48]
+            - button "了解更多" [ref=e50]:
+              - generic [ref=e51]: 了解更多
+          - generic [ref=e52]:
+            - generic [ref=e53]:
+              - generic [ref=e55]: C
+              - generic [ref=e57]: C
+              - generic [ref=e59]: C
+            - paragraph [ref=e60]: 支持所有主流 AI 客户端
+        - generic [ref=e63]:
+          - generic [ref=e68]: agent_conversation.py
+          - generic [ref=e69]:
+            - generic [ref=e70]: agent:"帮我重命名 UserService 中的 get_user 方法"
+            - generic [ref=e72]: "Serena: rename_symbol("
+            - generic [ref=e73]: name_path:"UserService/get_user",
+            - generic [ref=e74]: new_name:"find_user_by_id"
+            - generic [ref=e75]: )
+            - generic [ref=e77]:
+              - img [ref=e78]
+              - generic [ref=e80]: ✓ 已更新 3 个文件中的 5 处引用
+      - generic [ref=e81]:
+        - generic [ref=e82]:
+          - img [ref=e84]
+          - generic [ref=e86]: 10x
+          - generic [ref=e87]: 效率提升
+        - generic [ref=e88]:
+          - img [ref=e90]
+          - generic [ref=e93]: 100%
+          - generic [ref=e94]: 操作精度
+        - generic [ref=e95]:
+          - img [ref=e97]
+          - generic [ref=e99]: "0"
+          - generic [ref=e100]: 代码安全
+        - generic [ref=e101]:
+          - img [ref=e103]
+          - generic [ref=e108]: 10K+
+          - generic [ref=e109]: 社区规模
+    - generic [ref=e112]:
+      - generic [ref=e113]:
+        - heading "为什么选择 Serena" [level=2] [ref=e114]
+        - paragraph [ref=e115]: 为 AI Agent 打造的下一代代码智能工具，让 AI 能够真正理解代码结构
+      - generic [ref=e116]:
+        - generic [ref=e117]:
+          - img [ref=e119]
+          - generic [ref=e123]: 40+
+          - generic [ref=e124]: 支持的编程语言
+          - paragraph [ref=e125]: 包括 Python, TypeScript, Go, Rust, Java, C++ 等主流语言
+        - generic [ref=e126]:
+          - img [ref=e128]
+          - generic [ref=e132]: 15+
+          - generic [ref=e133]: 符号操作类型
+          - paragraph [ref=e134]: 查找、重命名、移动、删除等完整的符号级操作
+        - generic [ref=e135]:
+          - img [ref=e137]
+          - generic [ref=e142]: 10+
+          - generic [ref=e143]: 支持的客户端
+          - paragraph [ref=e144]: Claude Code, Codex, Copilot, JetBrains, VS Code 等
+        - generic [ref=e145]:
+          - img [ref=e147]
+          - generic [ref=e150]: <50ms
+          - generic [ref=e151]: 平均响应时间
+          - paragraph [ref=e152]: 基于 LSP 的高效语义分析能力
+    - generic [ref=e154]:
+      - generic [ref=e155]:
+        - generic [ref=e157]: 核心功能
+        - heading "为 AI Agent 打造的完整工具链" [level=2] [ref=e158]
+        - paragraph [ref=e159]: 从符号理解到精准编辑，从重构到记忆，Serena 提供 AI 编程所需的一切
+      - generic [ref=e160]:
+        - generic [ref=e161] [cursor=pointer]:
+          - img [ref=e163]
+          - heading "符号级检索" [level=3] [ref=e166]
+          - paragraph [ref=e167]: 通过 NamePath 精确查找符号，理解代码结构而非文本匹配
+          - generic [ref=e168]:
+            - generic [ref=e169]:
+              - code [ref=e171]: find_symbol
+              - generic [ref=e172]: "- 按名称路径查找符号"
+            - generic [ref=e173]:
+              - code [ref=e175]: find_references
+              - generic [ref=e176]: "- 查找所有引用"
+            - generic [ref=e177]:
+              - code [ref=e179]: find_implementations
+              - generic [ref=e180]: "- 查找接口实现"
+        - generic [ref=e181] [cursor=pointer]:
+          - img [ref=e183]
+          - heading "智能编辑" [level=3] [ref=e185]
+          - paragraph [ref=e186]: 基于符号的精准编辑，避免传统文本操作的误伤风险
+          - generic [ref=e187]:
+            - generic [ref=e188]:
+              - code [ref=e190]: replace_symbol_body
+              - generic [ref=e191]: "- 替换符号主体"
+            - generic [ref=e192]:
+              - code [ref=e194]: insert_after_symbol
+              - generic [ref=e195]: "- 在符号后插入"
+            - generic [ref=e196]:
+              - code [ref=e198]: safe_delete
+              - generic [ref=e199]: "- 安全删除未使用代码"
+        - generic [ref=e200] [cursor=pointer]:
+          - img [ref=e202]
+          - heading "重构能力" [level=3] [ref=e206]
+          - paragraph [ref=e207]: 重命名、移动、内联等企业级重构操作，零手动确认
+          - generic [ref=e208]:
+            - generic [ref=e209]:
+              - code [ref=e211]: rename_symbol
+              - generic [ref=e212]: "- 跨文件重命名"
+            - generic [ref=e213]:
+              - code [ref=e215]: move_symbol
+              - generic [ref=e216]: "- 移动符号位置"
+            - code [ref=e219]: 支持 40+ 编程语言
+        - generic [ref=e220] [cursor=pointer]:
+          - img [ref=e222]
+          - heading "记忆系统" [level=3] [ref=e226]
+          - paragraph [ref=e227]: 持久化记忆让 AI Agent 跨会话保持上下文
+          - generic [ref=e228]:
+            - code [ref=e231]: 项目级知识记忆
+            - code [ref=e234]: 会话间状态共享
+            - code [ref=e237]: 可配置的存储后端
+        - generic [ref=e238] [cursor=pointer]:
+          - img [ref=e240]
+          - heading "多后端支持" [level=3] [ref=e243]
+          - paragraph [ref=e244]: LSP 语言服务器或 JetBrains 插件，灵活选择
+          - generic [ref=e245]:
+            - generic [ref=e246]:
+              - code [ref=e248]: LSP
+              - generic [ref=e249]: "- 开源免费方案"
+            - generic [ref=e250]:
+              - code [ref=e252]: JetBrains
+              - generic [ref=e253]: "- 强大商业方案"
+            - code [ref=e256]: 统一 MCP 接口
+        - generic [ref=e257] [cursor=pointer]:
+          - img [ref=e259]
+          - heading "安全可靠" [level=3] [ref=e261]
+          - paragraph [ref=e262]: 完整的类型检查和引用分析，确保代码安全
+          - generic [ref=e263]:
+            - code [ref=e266]: 编译时类型检查
+            - code [ref=e269]: 引用完整性验证
+            - code [ref=e272]: 事务性变更
+    - generic [ref=e274]:
+      - generic [ref=e275]:
+        - generic [ref=e276]:
+          - img [ref=e277]
+          - generic [ref=e281]: 核心技术
+        - heading "符号系统 (Symbol System)" [level=2] [ref=e282]
+        - paragraph [ref=e283]: Serena 使用「符号」而不是「行号」来理解和操作代码，这是与 AI Agent 进行高效协作的基础
+      - generic [ref=e284]:
+        - button "核心概念" [ref=e285]
+        - button "代码示例" [ref=e286]
+        - button "效果对比" [ref=e287]
+      - generic [ref=e288]:
+        - generic [ref=e289]:
+          - img [ref=e291]
+          - heading "NamePath 符号路径" [level=3] [ref=e295]
+          - paragraph [ref=e296]: MyClass/my_method 表示「MyClass 类中的 my_method 方法」
+        - generic [ref=e297]:
+          - img [ref=e299]
+          - heading "符号识别" [level=3] [ref=e303]
+          - paragraph [ref=e304]: 自动识别类、方法、变量等代码结构，理解代码语义
+        - generic [ref=e305]:
+          - img [ref=e307]
+          - heading "位置无关" [level=3] [ref=e309]
+          - paragraph [ref=e310]: 基于符号而非行号，移动代码不会导致引用失效
+    - generic [ref=e312]:
+      - generic [ref=e313]:
+        - generic [ref=e314]:
+          - img [ref=e315]
+          - generic [ref=e319]: 架构设计
+        - heading "Tool 工具架构" [level=2] [ref=e320]
+        - paragraph [ref=e321]: 基于面向对象设计模式的工具系统，通过基类、标记类和注册表实现声明式、可扩展的架构
+      - generic [ref=e322]:
+        - button "架构概览" [ref=e323]
+        - button "Tool 基类" [ref=e324]
+        - button "注册表" [ref=e325]
+      - generic [ref=e327]:
+        - generic [ref=e328]:
+          - img [ref=e330]
+          - generic [ref=e333]: Component 基类
+          - img [ref=e334]
+        - generic [ref=e336]:
+          - img [ref=e338]
+          - generic [ref=e340]: Tool 工具基类
+          - img [ref=e341]
+        - generic [ref=e343]:
+          - img [ref=e345]
+          - generic [ref=e349]: ToolRegistry 注册表
+          - img [ref=e350]
+        - generic [ref=e352]:
+          - img [ref=e354]
+          - generic [ref=e357]: MCP Server 协议服务
+    - generic [ref=e359]:
+      - generic [ref=e360]:
+        - generic [ref=e361]:
+          - img [ref=e362]
+          - generic [ref=e365]: MCP 集成
+        - heading "MCP 协议集成" [level=2] [ref=e366]
+        - paragraph [ref=e367]: 通过 Model Context Protocol 与所有主流 AI 客户端无缝集成，即插即用
+      - generic [ref=e370]:
+        - generic [ref=e373]:
+          - img [ref=e375]
+          - generic [ref=e378]:
+            - heading "AI Agent" [level=3] [ref=e379]
+            - paragraph [ref=e380]: Claude Code、Codex、Copilot 等客户端发起请求
+        - generic [ref=e384]:
+          - img [ref=e386]
+          - generic [ref=e389]:
+            - heading "MCP 协议" [level=3] [ref=e390]
+            - paragraph [ref=e391]: 通过 Model Context Protocol 标准协议传输
+        - generic [ref=e395]:
+          - img [ref=e397]
+          - generic [ref=e400]:
+            - heading "Serena MCP Server" [level=3] [ref=e401]
+            - paragraph [ref=e402]: Serena 接收请求并路由到对应工具
+        - generic [ref=e406]:
+          - img [ref=e408]
+          - generic [ref=e413]:
+            - heading "LSP / JetBrains" [level=3] [ref=e414]
+            - paragraph [ref=e415]: 调用语言服务器获取代码语义信息
+      - generic [ref=e417]:
+        - generic [ref=e418]:
+          - generic [ref=e419]:
+            - img [ref=e420]
+            - heading "MCP 请求示例" [level=3] [ref=e422]
+          - generic [ref=e423]: "{ \"jsonrpc\": \"2.0\", \"id\": 1, \"method\": \"tools/call\", \"params\": { \"name\": \"find_symbol\", \"arguments\": { \"name_path_pattern\": \"UserService/get_user\", \"max_matches\": 10 } } }"
+        - generic [ref=e424]:
+          - generic [ref=e425]:
+            - img [ref=e426]
+            - heading "响应结果" [level=3] [ref=e428]
+          - generic [ref=e429]: "{ \"symbols\": [{ \"name\": \"get_user\", \"name_path\": \"UserService/get_user\", \"kind\": \"method\", \"file\": \"services/user.py\", \"line\": 42, \"column\": 5 }] }"
+      - generic [ref=e431]:
+        - generic [ref=e432]:
+          - generic [ref=e434]: C
+          - generic [ref=e436]: C
+          - generic [ref=e438]: C
+          - generic [ref=e440]: J
+          - generic [ref=e442]: V
+        - generic [ref=e443]: 以及更多支持 MCP 的客户端
+    - generic [ref=e445]:
+      - generic [ref=e446]:
+        - generic [ref=e447]:
+          - img [ref=e448]
+          - generic [ref=e450]: 效果评估
+        - heading "来自 AI Agent 的真实评价" [level=2] [ref=e451]
+        - paragraph [ref=e452]: 不同的 AI Agent 在不同的环境下独立得出相同的结论
+      - generic [ref=e453]:
+        - generic [ref=e454]:
+          - img [ref=e455]
+          - generic [ref=e458]:
+            - img [ref=e459]
+            - img [ref=e461]
+            - img [ref=e463]
+            - img [ref=e465]
+            - img [ref=e467]
+          - paragraph [ref=e469]: "\"Serena's IDE-backed semantic tools are the single most impactful addition to my toolkit – cross-file renames, moves, and reference lookups that would cost me 8–12 careful, error-prone steps collapse into one atomic call.\""
+          - generic [ref=e470]:
+            - generic [ref=e471]: Opus 4.6 (high)
+            - generic [ref=e472]: Claude Code on large Python codebase
+        - generic [ref=e473]:
+          - img [ref=e474]
+          - generic [ref=e477]:
+            - img [ref=e478]
+            - img [ref=e480]
+            - img [ref=e482]
+            - img [ref=e484]
+            - img [ref=e486]
+          - paragraph [ref=e488]: "\"As a coding AI agent, I would ask my owner to add Serena because it gives me the missing IDE-level understanding of symbols, references, and refactorings, turning fragile text surgery into calmer, faster, more confident code changes.\""
+          - generic [ref=e489]:
+            - generic [ref=e490]: GPT 5.4 (high)
+            - generic [ref=e491]: Codex CLI on Java codebase
+        - generic [ref=e492]:
+          - img [ref=e493]
+          - generic [ref=e496]:
+            - img [ref=e497]
+            - img [ref=e499]
+            - img [ref=e501]
+            - img [ref=e503]
+            - img [ref=e505]
+          - paragraph [ref=e507]: "\"As a coding agent, I'd absolutely ask my owner to add Serena because it makes me noticeably sharper and calmer on real code – especially symbol-aware navigation and cross-file refactors.\""
+          - generic [ref=e508]:
+            - generic [ref=e509]: GPT 5.4 (medium)
+            - generic [ref=e510]: Copilot CLI on large monorepo
+      - link "查看完整的评估报告和方法论" [ref=e512] [cursor=pointer]:
+        - /url: https://oraios.github.io/serena/04-evaluation/000_evaluation-intro.html
+        - generic [ref=e513]: 查看完整的评估报告和方法论
+        - img [ref=e514]
+    - generic [ref=e519]:
+      - generic [ref=e520]:
+        - generic [ref=e521]:
+          - img [ref=e522]
+          - generic [ref=e525]: 定价方案
+        - heading "选择适合你的方案" [level=2] [ref=e526]
+        - paragraph [ref=e527]: 两种后端方案，满足不同的需求和预算
+      - generic [ref=e528]:
+        - generic [ref=e529]:
+          - generic [ref=e530]:
+            - heading "LSP" [level=3] [ref=e531]
+            - paragraph [ref=e532]: 开源免费方案
+          - generic [ref=e533]: 免费
+          - generic [ref=e534]:
+            - generic [ref=e535]:
+              - img [ref=e537]
+              - generic [ref=e539]: 40+ 编程语言支持
+            - generic [ref=e540]:
+              - img [ref=e542]
+              - generic [ref=e544]: 符号查找和引用
+            - generic [ref=e545]:
+              - img [ref=e547]
+              - generic [ref=e549]: 符号级编辑
+            - generic [ref=e550]:
+              - img [ref=e552]
+              - generic [ref=e554]: 正则搜索
+            - generic [ref=e555]:
+              - img [ref=e557]
+              - generic [ref=e559]: 基础文件操作
+            - generic [ref=e560]:
+              - generic [ref=e562]: −
+              - generic [ref=e563]: JetBrains 深度集成
+            - generic [ref=e564]:
+              - generic [ref=e566]: −
+              - generic [ref=e567]: 交互式调试
+            - generic [ref=e568]:
+              - generic [ref=e570]: −
+              - generic [ref=e571]: 高级重构
+          - button "快速开始" [ref=e572]
+        - generic [ref=e573]:
+          - generic [ref=e574]: 推荐
+          - generic [ref=e575]:
+            - heading "JetBrains" [level=3] [ref=e576]
+            - paragraph [ref=e577]: 强大的商业方案
+          - generic [ref=e578]: 订阅制
+          - generic [ref=e579]:
+            - generic [ref=e580]:
+              - img [ref=e582]
+              - generic [ref=e584]: 所有 LSP 功能
+            - generic [ref=e585]:
+              - img [ref=e587]
+              - generic [ref=e589]: 所有 JetBrains IDE 支持
+            - generic [ref=e590]:
+              - img [ref=e592]
+              - generic [ref=e594]: 交互式调试能力
+            - generic [ref=e595]:
+              - img [ref=e597]
+              - generic [ref=e599]: 高级重构功能
+            - generic [ref=e600]:
+              - img [ref=e602]
+              - generic [ref=e604]: 类型层级分析
+            - generic [ref=e605]:
+              - img [ref=e607]
+              - generic [ref=e609]: 依赖搜索
+            - generic [ref=e610]:
+              - img [ref=e612]
+              - generic [ref=e614]: 优先技术支持
+          - button "获取插件" [ref=e615]
+      - paragraph [ref=e617]: 两种方案都通过 MCP 协议与 AI Agent 通信，享受一致的体验
+    - generic [ref=e619]:
+      - generic [ref=e620]:
+        - generic [ref=e621]:
+          - img [ref=e622]
+          - generic [ref=e624]: 快速开始
+        - heading "3 步开始使用 Serena" [level=2] [ref=e625]
+        - paragraph [ref=e626]: 简单几步，即可在你的 AI 客户端中启用 Serena 的符号级工具能力
+      - generic [ref=e627]:
+        - generic [ref=e628]:
+          - generic [ref=e629]:
+            - generic [ref=e630]: "1"
+            - generic [ref=e631]:
+              - heading "安装 Serena" [level=3] [ref=e632]
+              - paragraph [ref=e633]: 通过 uv 包管理器安装
+          - generic [ref=e634]:
+            - img [ref=e636]
+            - code [ref=e638]: uv tool install -p 3.13 serena-agent@latest --prerelease=allow
+            - button [ref=e639]:
+              - img [ref=e640]
+        - generic [ref=e643]:
+          - generic [ref=e644]:
+            - generic [ref=e645]: "2"
+            - generic [ref=e646]:
+              - heading "初始化项目" [level=3] [ref=e647]
+              - paragraph [ref=e648]: 在项目目录下初始化 Serena
+          - generic [ref=e649]:
+            - img [ref=e651]
+            - code [ref=e653]: serena init
+            - button [ref=e654]:
+              - img [ref=e655]
+        - generic [ref=e658]:
+          - generic [ref=e659]:
+            - generic [ref=e660]: "3"
+            - generic [ref=e661]:
+              - heading "配置 AI 客户端" [level=3] [ref=e662]
+              - paragraph [ref=e663]: 查看 MCP 启动命令并配置到你的 AI 客户端
+          - generic [ref=e664]:
+            - img [ref=e666]
+            - code [ref=e668]: serena config --show
+            - button [ref=e669]:
+              - img [ref=e670]
+      - link "查看完整文档" [ref=e674] [cursor=pointer]:
+        - /url: https://oraios.github.io/serena/02-usage/000_intro.html
+        - generic [ref=e675]: 查看完整文档
+        - img [ref=e676]
+  - contentinfo [ref=e678]:
+    - generic [ref=e679]:
+      - generic [ref=e680]:
+        - generic [ref=e681]:
+          - generic [ref=e682]:
+            - generic [ref=e684]: S
+            - generic [ref=e685]: Serena
+          - paragraph [ref=e686]: 给 AI Agent 装上 IDE 级别的代码理解能力，让 AI 编程进入符号级时代。
+          - generic [ref=e687]:
+            - link [ref=e688] [cursor=pointer]:
+              - /url: https://github.com/oraios/serena
+              - img [ref=e689]
+            - link [ref=e691] [cursor=pointer]:
+              - /url: https://twitter.com/oraiosHQ
+              - img [ref=e692]
+            - link [ref=e694] [cursor=pointer]:
+              - /url: https://discord.com/invite/cVUNQmnV4r
+              - img [ref=e695]
+        - generic [ref=e697]:
+          - heading "Documentation" [level=4] [ref=e698]
+          - list [ref=e699]:
+            - listitem [ref=e700]:
+              - link "用户指南" [ref=e701] [cursor=pointer]:
+                - /url: https://oraios.github.io/serena/02-usage/000_intro.html
+                - generic [ref=e702]: 用户指南
+                - img [ref=e703]
+            - listitem [ref=e707]:
+              - link "工具参考" [ref=e708] [cursor=pointer]:
+                - /url: https://oraios.github.io/serena/01-about/035_tools.html
+                - generic [ref=e709]: 工具参考
+                - img [ref=e710]
+            - listitem [ref=e714]:
+              - link "配置指南" [ref=e715] [cursor=pointer]:
+                - /url: https://oraios.github.io/serena/02-usage/050_configuration.html
+                - generic [ref=e716]: 配置指南
+                - img [ref=e717]
+            - listitem [ref=e721]:
+              - link "支持的语言" [ref=e722] [cursor=pointer]:
+                - /url: https://oraios.github.io/serena/01-about/020_programming-languages.html
+                - generic [ref=e723]: 支持的语言
+                - img [ref=e724]
+        - generic [ref=e728]:
+          - heading "Resources" [level=4] [ref=e729]
+          - list [ref=e730]:
+            - listitem [ref=e731]:
+              - link "评估报告" [ref=e732] [cursor=pointer]:
+                - /url: https://oraios.github.io/serena/04-evaluation/000_evaluation-intro.html
+                - generic [ref=e733]: 评估报告
+                - img [ref=e734]
+            - listitem [ref=e738]:
+              - link "更新日志" [ref=e739] [cursor=pointer]:
+                - /url: https://oraios.github.io/serena/CHANGELOG.html
+                - generic [ref=e740]: 更新日志
+                - img [ref=e741]
+            - listitem [ref=e745]:
+              - link "贡献指南" [ref=e746] [cursor=pointer]:
+                - /url: https://oraios.github.io/serena/CONTRIBUTING.html
+                - generic [ref=e747]: 贡献指南
+                - img [ref=e748]
+            - listitem [ref=e752]:
+              - link "示例项目" [ref=e753] [cursor=pointer]:
+                - /url: https://github.com/oraios/serena/tree/main/examples
+                - generic [ref=e754]: 示例项目
+                - img [ref=e755]
+        - generic [ref=e759]:
+          - heading "Community" [level=4] [ref=e760]
+          - list [ref=e761]:
+            - listitem [ref=e762]:
+              - link "Discord" [ref=e763] [cursor=pointer]:
+                - /url: https://discord.com/invite/cVUNQmnV4r
+                - generic [ref=e764]: Discord
+                - img [ref=e765]
+            - listitem [ref=e769]:
+              - link "GitHub" [ref=e770] [cursor=pointer]:
+                - /url: https://github.com/oraios/serena
+                - generic [ref=e771]: GitHub
+                - img [ref=e772]
+            - listitem [ref=e776]:
+              - link "Twitter" [ref=e777] [cursor=pointer]:
+                - /url: https://twitter.com/oraiosHQ
+                - generic [ref=e778]: Twitter
+                - img [ref=e779]
+      - generic [ref=e783]:
+        - paragraph [ref=e784]: © 2024 Serena. MIT License.
+        - paragraph [ref=e785]: Built with ❤️ for AI Agents and Developers
